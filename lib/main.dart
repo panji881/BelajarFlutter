@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'contoh_stateless.dart';
 import 'contoh_stateful.dart';
 import 'matakuliah_form.dart';
+import 'latihan_stateful.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(title: 'Latihan Flutter', 
-    home: MatakuliahForm()
+    home: LatihanStateful()
     );
   }
 }
